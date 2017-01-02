@@ -6,8 +6,8 @@
 #  Step 2 - After you have your application running you can bind to the services below as described on predix.io
 
 applications:
-  - name: Predix-HelloWorld-WebApp-<YourAppName> # Step 1: Change your application name
-    buildpack: staticfile_buildpack 
+  - name: Predix-HelloWorld-WebApp-Toubi
+    buildpack: staticfile_buildpack
     #path: dist
     memory: 256M
     stack: cflinuxfs2
